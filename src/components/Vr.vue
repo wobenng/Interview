@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import Vr from '../assets/vr@3.png';
+import Vr from '../../static/vr@3.png';
 
 export default {
   name: 'Vr',

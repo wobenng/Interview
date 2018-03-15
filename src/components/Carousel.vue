@@ -11,16 +11,16 @@
 </template>
 
 <script>
-import banner1URL from '../assets/banner1@3.png'
-import banner2URL from '../assets/banner2@3.png'
+import banner1URL from '../../static/banner1@3.png'
+import banner2URL from '../../static/banner2@3.png'
 
 export default {
   name: 'Carousel',
   data(){
     return{
       imgSrc:[
-          {src: banner1URL,id:1},
-          {src: banner2URL,id:2}
+          {src: banner1URL.substring(0,15)+'/'+banner1URL.substring(15),id:1},
+          {src: banner1URL.substring(0,15)+'/'+banner1URL.substring(15),id:2}
       ],
       isActive: true,
       switchIndex: 1,
@@ -37,6 +37,7 @@ export default {
         }
         this.isActive = !this.isActive;
     },3000)
+    console.log(banner1URL.substring(0,15)+'/'+banner1URL.substring(15))
   }
 }
 </script>
