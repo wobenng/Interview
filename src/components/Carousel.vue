@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import banner1URL from './../assets/banner1@3.png'
-import banner2URL from './../assets/banner2@3.png'
+import banner1URL from '../assets/banner1@3.png'
+import banner2URL from '../assets/banner2@3.png'
 
 export default {
   name: 'Carousel',
