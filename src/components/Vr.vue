@@ -103,6 +103,7 @@ $deviceWidth : 100vw;
             text-align: start;
             div:first-child{
                 position: relative;
+                font-size: 0px;
             }
             div:first-child #h{
                 position: relative;
