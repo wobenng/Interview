@@ -94,18 +94,18 @@ $deviceWidth : 100vw;
         font-size: round((50/$designWidth)*100vw);
         color: #333333;
         margin-top: round((56/$designWidth)*100vw);
-        margin-bottom: round((24/$designWidth)*100vw);
+        
     }
     #dividingLine{
         background-color: #159a91;
         width: round((56/$designWidth)*100vw);
         height: 2px;
+        margin-bottom: round((24/$designWidth)*100vw);
+        margin-top: round((24/$designWidth)*100vw);
     }
     #subtitle{
-        margin-top: round((24/$designWidth)*100vw);
         margin-bottom: round((80/$designWidth)*100vw);
         font-size: round((27/$designWidth)*100vw);
-        line-height: round((30/$designWidth)*100vw);
         height: round((30/$designWidth)*100vw);
         color: #999999;
     }
@@ -184,6 +184,8 @@ $deviceWidth : 100vw;
         border: none;
         outline: none;
         margin-top: round((40/$designWidth)*100vw);
+        -moz-appearance:none;
+        -webkit-appearance:none;
     }
     input:last-child{
         color: white;

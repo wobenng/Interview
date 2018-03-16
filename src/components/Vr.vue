@@ -90,6 +90,7 @@ $deviceWidth : 100vw;
 }
 #Vr{
     #vrOuter{
+        font-size: 0px;
         position: relative;
         img{
             width: 100vw;
